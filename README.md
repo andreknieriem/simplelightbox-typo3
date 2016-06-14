@@ -1,17 +1,16 @@
-Usage of simplelightbox
-=======================
+# Usage of simplelightbox
 
-* Installation
+## Installation
 
 
-1) Install the extension via Extensionmanager or download the zip file and upload it.
-2) Add TypoScript to your template record
-	- Go to your root page and click on "**Template**".
-	- Choose "**Info/Modify**" in the select above
-	- Click on "**Edit the whole template record**"
-	- Choose Tab "Includes" and include "**Simplelightbox (simplelightbox)**"
+* Install the extension via Extensionmanager or download the zip file and upload it.
+* Add TypoScript to your template record
+	* Go to your root page and click on "**Template**".
+	* Choose "**Info/Modify**" in the select above
+	* Click on "**Edit the whole template record**"
+	* Choose Tab "Includes" and include "**Simplelightbox (simplelightbox)**"
 
-* Changing Options
+## Changing Options
 plugin.tx_simplelightbox.settings {
 	- overlay = 1 
 	- spinner = 1 
@@ -49,4 +48,4 @@ plugin.tx_simplelightbox.settings {
 
 The options are the same as they are for the simplelightbox javascript plugin. Boolean values are presented as 0 and 1.
 You can see the pluginpage here:
-`http://andreknieriem.de/simple-lightbox/ <http://andreknieriem.de/simple-lightbox/>`_
+http://andreknieriem.de/simple-lightbox
