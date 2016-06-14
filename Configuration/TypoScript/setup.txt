@@ -1,0 +1,245 @@
+tt_content.image.20.1.imageLinkWrap {
+    JSwindow = 0
+    directImageLink = 1
+    linkParams.ATagParams.dataWrap = class="simpleLightboxImg"
+}
+
+plugin.tx_simplelightbox {
+	settings {
+		overlay = 1
+		spinner = 1
+		nav = 1
+		navTextPrev = ‹
+		navTextNext = ›
+		captions = 1
+		captionSelector = img
+		captionType = attr
+		captionsData = title
+		captionPosition = bottom
+		captionDelay = 0
+		close = 1
+		closeText = ×
+		swipeClose = 1
+		showCounter = 1
+		fileExt = png|jpg|jpeg|gif
+		animationSpeed = 250
+		animationSlide = 1
+		preloading = 1
+		enableKeyboard = 1
+		loop = 1
+		docClose =1
+		swipeTolerance = 50
+		className = simple-lightbox
+		widthRatio = 0.8
+		heightRatio = 0.9
+		disableRightClick = 0
+		disableScroll = 1
+		alertError  = 1
+		alertErrorMessage = Image not found, next image will be loaded
+		additionalHtml = 
+	}
+}
+
+
+lib.simplelightboxsettings = COA
+lib.simplelightboxsettings {
+
+	2 = COA
+	2{
+		1 = TEXT
+		1.value = overlay
+		1.wrap = "|":
+		2 = TEXT
+		2.wrap = "|",
+		2.value < plugin.tx_simplelightbox.settings.overlay
+	}
+	
+	3 < .2
+	3 {
+		1.value = spinner
+		2.value < plugin.tx_simplelightbox.settings.spinner 
+	}
+	
+	4 < .2
+	4 {
+		1.value = nav
+		2.value < plugin.tx_simplelightbox.settings.nav 
+	}
+	
+	5 < .2
+	5 {
+		1.value = navTextPrev
+		2.value < plugin.tx_simplelightbox.settings.navTextPrev 
+	}
+	
+	6 < .2
+	6 {
+		1.value = navTextNext
+		2.value < plugin.tx_simplelightbox.settings.navTextNext 
+	}
+	
+	7 < .2
+	7 {
+		1.value = captions
+		2.value < plugin.tx_simplelightbox.settings.captions 
+	}
+	
+	8 < .2
+	8 {
+		1.value = captionSelector
+		2.value < plugin.tx_simplelightbox.settings.captionSelector 
+	}
+	
+	9 < .2
+	9 {
+		1.value = captionType
+		2.value < plugin.tx_simplelightbox.settings.captionType 
+	}
+	
+	10 < .2
+	10 {
+		1.value = captionsData
+		2.value < plugin.tx_simplelightbox.settings.captionsData 
+	}
+	
+	11 < .2
+	11 {
+		1.value = captionPosition
+		2.value < plugin.tx_simplelightbox.settings.captionPosition 
+	}
+	
+	12 < .2
+	12 {
+		1.value = close
+		2.value < plugin.tx_simplelightbox.settings.close 
+	}
+	
+	13 < .2
+	13 {
+		1.value = closeText
+		2.value < plugin.tx_simplelightbox.settings.closeText 
+	}
+	
+	14 < .2
+	14 {
+		1.value = swipeClose
+		2.value < plugin.tx_simplelightbox.settings.swipeClose 
+	}
+	
+	15 < .2
+	15 {
+		1.value = showCounter
+		2.value < plugin.tx_simplelightbox.settings.showCounter 
+	}
+	
+	16 < .2
+	16 {
+		1.value = fileExt
+		2.value < plugin.tx_simplelightbox.settings.fileExt 
+	}
+	
+	17 < .2
+	17 {
+		1.value = animationSpeed
+		2.value < plugin.tx_simplelightbox.settings.animationSpeed 
+	}
+	
+	18 < .2
+	18 {
+		1.value = animationSlide
+		2.value < plugin.tx_simplelightbox.settings.animationSlide 
+	}
+	
+	19 < .2
+	19 {
+		1.value = preloading
+		2.value < plugin.tx_simplelightbox.settings.preloading 
+	}
+	
+	20 < .2
+	20 {
+		1.value = enableKeyboard
+		2.value < plugin.tx_simplelightbox.settings.enableKeyboard 
+	}
+	
+	21 < .2
+	21 {
+		1.value = loop
+		2.value < plugin.tx_simplelightbox.settings.loop 
+	}
+	
+	22 < .2
+	22 {
+		1.value = docClose
+		2.value < plugin.tx_simplelightbox.settings.docClose 
+	}
+	
+	23 < .2
+	23 {
+		1.value = swipeTolerance
+		2.value < plugin.tx_simplelightbox.settings.swipeTolerance 
+	}
+	
+	24 < .2
+	24 {
+		1.value = className
+		2.value < plugin.tx_simplelightbox.settings.className 
+	}
+	
+	25 < .2
+	25 {
+		1.value = widthRatio
+		2.value < plugin.tx_simplelightbox.settings.widthRatio 
+	}
+	
+	26 < .2
+	26 {
+		1.value = heightRatio
+		2.value < plugin.tx_simplelightbox.settings.heightRatio 
+	}
+	
+	27 < .2
+	27 {
+		1.value = disableRightClick
+		2.value < plugin.tx_simplelightbox.settings.disableRightClick 
+	}
+	
+	28 < .2
+	28 {
+		1.value = disableScroll
+		2.value < plugin.tx_simplelightbox.settings.disableScroll 
+	}
+	
+	29 < .2
+	29 {
+		1.value = alertError
+		2.value < plugin.tx_simplelightbox.settings.alertError 
+	}
+	
+	30 < .2
+	30 {
+		1.value = alertErrorMessage
+		2.value < plugin.tx_simplelightbox.settings.alertErrorMessage 
+	}
+	
+	31 < .2
+	31 {
+		1.value = additionalHtml
+		2.value < plugin.tx_simplelightbox.settings.additionalHtml 
+	}
+	
+	1 = TEXT
+	1.value = <script> var simplelightboxOptions = {
+
+	999 = TEXT
+	999.value = "dontTouch":"this"}; </script>
+	
+}
+
+page = PAGE
+page.headerData.10099 <lib.simplelightboxsettings
+
+page.includeCSS.simplelightbox_css = EXT:simplelightbox/Resources/Public/Css/simplelightbox.min.css
+#page.includeJSlibs.jquery = EXT:simplelightbox/Resources/Public/Js/jquery-2.2.4.min.js
+page.includeJSFooter.simplelightbox_js = EXT:simplelightbox/Resources/Public/Js/simple-lightbox.min.js
+page.includeJSFooter.simplelightbox_plugin = EXT:simplelightbox/Resources/Public/Js/plugin.js

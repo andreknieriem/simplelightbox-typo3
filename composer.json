@@ -1,0 +1,10 @@
+{
+  "name": "simplelightbox",
+  "type": "typo3-cms-extension",
+  "description": "simplelightbox for TYPO3",
+  "homepage": "https://www.andreknieriem.de/",
+  "license": ["MIT"],
+  "keywords": ["TYPO3 CMS", "lightbox","simplelightbox","modal","image","gallery","touch","popup"],
+  "version": "1.0.0",
+  "minimum-stability":"stable"
+}
